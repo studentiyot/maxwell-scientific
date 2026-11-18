@@ -2,74 +2,151 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
   <head>
-    <title>Philately Haven :: Useful Links</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="stamps.css" />
+    <title>Maxwell Scientific - Useful Links</title>
+    <link rel="stylesheet" href="./assets/css/maxwell.css" />
+    <link rel="icon" href="favicon.png" type="image/png" />
   </head>
   <body>
-    <div id="wrapper">
-      <header>
-        <h1><a href="index.html">Philately Haven</a></h1>
-      </header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="introduction.html">Why Stamps</a></li>
-          <li><a href="beginners.html">Beginner Guide</a></li>
-          <li><a href="links.html">Useful Links</a></li>
-        </ul>
-      </nav>
-      <main>
-        <h2>Find out more information</h2>
-        <p>
-          <span class="haven">Philately Haven</span> wants to provide stamp collectors with places to expand their knowledge. Here's a clean, curated list of
-          useful websites.
-        </p>
-        <section class="onethird">
-          <h3>Stamp Collecting Sites</h3>
-          <ul>
-            <li><a href="https://stamps.org/">American Philatelic Society</a></li>
-            <li><a href="https://www.rpsl.org.uk/TheSociety">Royal Philatelic Society London</a></li>
-            <li><a href="https://www.stampworld.com/en/">StampWorld</a></li>
-            <li><a href="https://www.allaboutstamps.co.uk/">All About Stamps</a></li>
-            <li><a href="https://stampsmarter.org/">Stamp Smarter</a></li>
-          </ul>
-        </section>
-        <section class="onethird">
-          <h3>Stamp Auction Sites</h3>
-          <ul>
-            <li><a href="https://stampauctionnetwork.com/">Stamp Auction Network</a></li>
-            <li><a href="https://www.cherrystoneauctions.com/">Cherrystone Auctions</a></li>
-            <li>
-              <a href="https://www.grosvenorauctions.com/">Grosvenor Auctions</a> – London auction house focused on rare stamps and postal history, with
-              upcoming auction dates and illustrated catalogs.
-            </li>
-            <li>
-              <a href="https://www.kelleherauctions.com/">Kelleher Auctions</a> – A major U.S. auction house featuring frequent stamp auctions and live bidding
-              options.
-            </li>
-          </ul>
-        </section>
-        <section class="onethird">
-          <h3>Famous Stamp Collectors</h3>
-          <ul>
-            <li><a href="https://www.rct.uk/collection/themes/collections/philately">King George V – Royal Philatelic Collection</a></li>
-            <li><a href="https://postalmuseum.si.edu/exhibition/presidents-and-stamps/franklin-d-roosevelt">Franklin D. Roosevelt – Stamp Albums</a></li>
-            <li><a href="https://postalmuseum.si.edu/john-lennon-stamp-album">John Lennon – Childhood Stamp Album</a></li>
-          </ul>
-        </section>
-        <div class="clear"></div>
-        <div id="hero">
-          <img src="stamps/stamp-collection-display.jpg" width="1180" height="300" alt="Stamp Collection" />
-          <br />
+    <!-- Site Header: Utility Bar + Main Navigation -->
+    <header class="site-header">
+      <div class="top-bar">
+        <div class="container top-bar-content">
+          <span class="brand-text">MAXWELL SCIENTIFIC</span>
+          <search>
+            <div class="search-box">
+              <span class="search-icon" aria-hidden="true">🔎</span>
+              <input type="search" placeholder="Search..." aria-label="Search" />
+            </div>
+          </search>
         </div>
-      </main>
-      <footer>
-        Copyright &#xA9; 2026 Philately Haven
-        <br />
-        <a href="mailto:nidal@abu-shukhaidem.com">Nidal@Abu-Shukhaidem.com</a>
-      </footer>
-    </div>
+      </div>
+
+      <div class="main-nav-bar">
+        <div class="container nav-content">
+          <nav class="main-nav" aria-label="Primary navigation">
+            <ul class="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="astro.html">Astronomy</a></li>
+              <li><a href="chem.html">Chemistry</a></li>
+              <li><a href="elect.html">Electronics</a></li>
+              <li><a href="eng.html">Engineering</a></li>
+              <li><a href="physics.html">Physics</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </nav>
+
+          <div class="nav-logo">
+            <a href="https://www.example.com">
+              <img src="./assets/images/logo.png" alt="Maxwell Scientific Home" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Primary Page Content -->
+    <main>
+      <!-- Interior Two-Column Layout (Full-Bleed Left Sidebar + Right Content) -->
+      <div class="interior-layout">
+        <!-- Left Sidebar for Links -->
+        <aside class="sidebar" aria-label="Maxwell Scientific Resources">
+          <nav class="sidebar-nav" aria-label="Resources Section">
+            <ul class="sidebar-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="prepare.html">Preparation Guide</a></li>
+              <li><a href="links.html">Useful Links</a></li>
+            </ul>
+          </nav>
+        </aside>
+
+        <!-- Right Main Content Column -->
+        <div class="interior-content">
+          <!-- Preparation Guide Content -->
+          <section class="astro-intro" aria-labelledby="astro-heading">
+            <h1 id="astro-heading">Find out more information</h1>
+            <p>Maxwell Scientific is committed to advancing STEM education by providing educators, parents, and students with trusted resources, innovative learning tools, 
+			and hands-on experiences that inspire curiosity, encourage discovery, and build the foundation for lifelong success.</p>
+            <section class="onethird">
+				<h3> STEM Organizations </h3>
+				<ul>
+					<li><a href="https://www.nsta.org/">National Science Teaching Association (NSTA)</a></li>
+					<li><a href="https://www.nasa.gov/stem/">NASA STEM Engagement</a></li>
+					<li><a href="https://www.societyforscience.org/">Society for Science</a></li>
+					<li><a href="https://www.sae.org/learn">SAE International STEM Education</a></li>
+					<li><a href="https://www.asee.org/">American Society for Engineering Education</a></li>
+				</ul>
+			</section>
+			<section class="onethird">
+				<h3> Educational Resources </h3>
+				<ul>
+					<li><a href="https://www.nasa.gov/stem-content/teach-stem-activities/">NASA STEM Activities</a></li>
+					<li><a href="https://science.nasa.gov/learn/lessons-and-activities/">NASA Science Lessons & Activities</a></li>
+					<li><a href="https://code.org/">Code.org</a></li>
+					<li><a href="https://www.khanacademy.org/">Khan Academy</a></li>
+					<li><a href="https://www.ck12.org/">CK-12 Foundation</a></li>
+				</ul>
+			</section>
+			<section class="onethird">
+				<h3> STEM Challenges </h3>
+				<ul>
+					<li><a href="https://www.nasa.gov/learning-resources/nasa-stem-opportunities-activities/">NASA Student Challenges</a></li>
+					<li><a href="https://www.nasa.gov/learning-resources/nasa-stem-opportunities-activities/">NASA App Development Challenge</a></li>
+					<li><a href="https://www.nasa.gov/learning-resources/nasa-stem-opportunities-activities/">NASA Human Exploration Rover Challenge</a></li>
+					<li><a href="https://www.nasa.gov/learning-resources/nasa-stem-opportunities-activities/">NASA Student Launch</a></li>
+					<li><a href="https://www.nasa.gov/learning-resources/nasa-stem-opportunities-activities/">NASA Internships</a></li>
+				</ul>
+			</section>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!-- Site Footer -->
+    <footer class="main-footer">
+      <div class="container footer-content">
+        <div class="footer-left">
+          <address class="company-address">
+            <p><strong>Maxwell Scientific</strong></p>
+            <p>205 East Nordheim Drive, Marion, IL 62959</p>
+            <p>Phone: <a href="tel:8005552191">(800) 555-2191</a> | Fax: (812) 555-2192</p>
+          </address>
+
+          <div class="social-icons">
+            <a href="https://www.example.com">
+              <img src="./assets/images/facebook.svg" alt="Maxwell Scientific on Facebook" width="30" height="30" />
+            </a>
+            <a href="https://www.example.com">
+              <img src="./assets/images/instagram.svg" alt="Maxwell Scientific on Instagram" width="30" height="30" />
+            </a>
+            <a href="https://www.example.com">
+              <img src="./assets/images/linkedin.svg" alt="Maxwell Scientific on LinkedIn" width="30" height="30" />
+            </a>
+            <a href="https://www.example.com">
+              <img src="./assets/images/twitter.svg" alt="Maxwell Scientific on X (Twitter)" width="30" height="30" />
+            </a>
+            <a href="https://www.example.com">
+              <img src="./assets/images/youtube.svg" alt="Maxwell Scientific on YouTube" width="30" height="30" />
+            </a>
+          </div>
+        </div>
+
+        <nav class="footer-right" aria-label="Footer navigation">
+          <ul class="footer-links">
+            <li><a href="https://example.com">Request a Quote</a></li>
+            <li><a href="https://example.com">Equip Your Lab</a></li>
+            <li><a href="https://example.com">Bulk Ordering</a></li>
+            <li><a href="https://example.com">Educator Resources</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="copyright-bar">
+        <small>Copyright 2099 &#xA9; Granny Chic Productions | <a href="mailto:info2099@grannychic.org">info2099@grannychic.org</a></small>
+      </div>
+    </footer>
+
+    <!-- CIS-1310-NET01 • COLLAB | prepare.html v.05h | Leslie Berrie (berriel@dupage.edu) • Nidal Abu-shukhaidem (abu-shukhaidemn@dupage.edu) | CC0-1.0 -->
   </body>
 </html>
